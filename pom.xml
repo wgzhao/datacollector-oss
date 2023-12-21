@@ -143,7 +143,6 @@
     <module>sdk</module>
     <module>stage-lib-archetype</module>
     <module>hadoop-common</module>
-    <module>mapr-common</module>
     <module>jks-common</module>
     <module>aws-support</module>
     <module>aws-s3-connection</module>
@@ -173,38 +172,19 @@
 
     <module>hdfs-protolib</module>
     <module>mapreduce-protolib</module>
-    <module>maprfs-protolib</module>
-    <module>maprdb-protolib</module>
-    <module>mapr_json-protolib</module>
-    <module>mapr_json-5_2-protolib</module>
-    <module>mapr_json-6_0-protolib</module>
     <module>hive-protolib</module>
     <module>jks-credentialstore-protolib</module>
 
     <module>dir-spooler-protolib</module>
 
     <module>sdc-kafka-api</module>
-    <module>sdc-kafka_0_8</module>
-    <module>sdc-kafka_0_9-common</module>
-    <module>sdc-kafka_0_9</module>
-    <module>sdc-kafka_0_9_mapr_5_1</module>
-    <module>sdc-kafka_0_9_mapr_5_2</module>
-    <module>sdc-kafka_0_10</module>
-    <module>sdc-kafka_0_11-common</module>
-    <module>sdc-kafka_0_11</module>
-    <module>sdc-kafka_1_0</module>
     <module>sdc-kafka_2_0</module>
-    <module>sdc-kafka_0_11_mapr_6_1</module>
     <module>kafka-common</module>
     <module>kafka_source-protolib</module>
     <module>kafka_multisource-protolib</module>
     <module>kafka_multisource-0_9-protolib</module>
     <module>kafka_multisource-0_10-protolib</module>
     <module>kafka_target-protolib</module>
-    <module>maprstreams-common</module>
-    <module>maprstreams-target-protolib</module>
-    <module>maprstreams-source-protolib</module>
-    <module>maprstreams-multisource-protolib</module>
     <module>jython-protolib</module>
     <module>groovy-protolib</module>
     <module>kinetica-protolib</module>
@@ -224,7 +204,6 @@
     <module>flume-protolib</module>
 
     <module>cluster-hdfs-protolib</module>
-    <module>sdc-hbase-0_98</module>
     <module>sdc-hbase-2_0</module>
     <module>sdc-hbase-api</module>
     <module>hbase-protolib</module>
@@ -233,14 +212,10 @@
     <module>cluster-kafka-protolib</module>
     <module>cluster-bootstrap-api</module>
     <module>cluster-bootstrap</module>
-    <module>mapr-cluster-bootstrap</module>
-    <module>mapr-cluster-bootstrap_2_2</module>
     <module>mesos-bootstrap</module>
     <module>client-api</module>
     <module>cli</module>
     <module>sdc-solr-api</module>
-    <module>sdc-solr_cdh_4</module>
-    <module>sdc-solr_6</module>
     <module>sdc-solr_7</module>
     <module>sdc-solr_8</module>
     <module>spark-executor-protolib</module>
@@ -520,13 +495,6 @@
              IMPORTANT: define a property matching the module directory name
              for every stage library here with the directory name as value
         -->
-        <apache-kafka_0_8_1-lib>apache-kafka_0_8_1-lib</apache-kafka_0_8_1-lib>
-        <apache-kafka_0_8_2-lib>apache-kafka_0_8_2-lib</apache-kafka_0_8_2-lib>
-        <apache-kafka_0_9-lib>apache-kafka_0_9-lib</apache-kafka_0_9-lib>
-        <apache-kafka_0_10-lib>apache-kafka_0_10-lib</apache-kafka_0_10-lib>
-        <apache-kafka_0_11-lib>apache-kafka_0_11-lib</apache-kafka_0_11-lib>
-        <apache-kafka_1_0-lib>apache-kafka_1_0-lib</apache-kafka_1_0-lib>
-        <apache-kafka_1_1-lib>apache-kafka_1_1-lib</apache-kafka_1_1-lib>
         <apache-kafka_2_0-lib>apache-kafka_2_0-lib</apache-kafka_2_0-lib>
         <apache-kafka_2_1-lib>apache-kafka_2_1-lib</apache-kafka_2_1-lib>
         <apache-kafka_2_2-lib>apache-kafka_2_2-lib</apache-kafka_2_2-lib>
@@ -535,78 +503,27 @@
         <apache-kafka_2_5-lib>apache-kafka_2_5-lib</apache-kafka_2_5-lib>
         <apache-kafka_2_6-lib>apache-kafka_2_6-lib</apache-kafka_2_6-lib>
         <apache-kafka_2_7-lib>apache-kafka_2_7-lib</apache-kafka_2_7-lib>
-        <apache-kudu_1_0-lib>apache-kudu_1_0-lib</apache-kudu_1_0-lib>
-        <apache-kudu_1_1-lib>apache-kudu_1_1-lib</apache-kudu_1_1-lib>
-        <apache-kudu_1_2-lib>apache-kudu_1_2-lib</apache-kudu_1_2-lib>
-        <apache-kudu_1_3-lib>apache-kudu_1_3-lib</apache-kudu_1_3-lib>
-        <apache-kudu_1_4-lib>apache-kudu_1_4-lib</apache-kudu_1_4-lib>
-        <apache-kudu_1_5-lib>apache-kudu_1_5-lib</apache-kudu_1_5-lib>
         <apache-kudu_1_6-lib>apache-kudu_1_6-lib</apache-kudu_1_6-lib>
         <apache-kudu_1_7-lib>apache-kudu_1_7-lib</apache-kudu_1_7-lib>
         <apache-pulsar_2-lib>apache-pulsar_2-lib</apache-pulsar_2-lib>
         <apache-solr_6_1_0-lib>apache-solr_6_1_0-lib</apache-solr_6_1_0-lib>
         <cassandra_3-lib>cassandra_3-lib</cassandra_3-lib>
-        <cdh_5_2-lib>cdh_5_2-lib</cdh_5_2-lib>
-        <cdh_5_3-lib>cdh_5_3-lib</cdh_5_3-lib>
-        <cdh_5_4-lib>cdh_5_4-lib</cdh_5_4-lib>
-        <cdh_5_5-lib>cdh_5_5-lib</cdh_5_5-lib>
-        <cdh_5_7-lib>cdh_5_7-lib</cdh_5_7-lib>
-        <cdh_5_8-lib>cdh_5_8-lib</cdh_5_8-lib>
-        <cdh_5_9-lib>cdh_5_9-lib</cdh_5_9-lib>
-        <cdh_5_10-lib>cdh_5_10-lib</cdh_5_10-lib>
-        <cdh_5_11-lib>cdh_5_11-lib</cdh_5_11-lib>
-        <cdh_5_12-lib>cdh_5_12-lib</cdh_5_12-lib>
-        <cdh_5_13-lib>cdh_5_13-lib</cdh_5_13-lib>
-        <cdh_5_14-lib>cdh_5_14-lib</cdh_5_14-lib>
-        <cdh_5_15-lib>cdh_5_15-lib</cdh_5_15-lib>
-        <cdh_5_16-lib>cdh_5_16-lib</cdh_5_16-lib>
-        <cdh-spark_2_1-lib>cdh-spark_2_1-lib</cdh-spark_2_1-lib>
-        <cdh-spark_2_2-lib>cdh-spark_2_2-lib</cdh-spark_2_2-lib>
         <cdh-spark_2_3-lib>cdh-spark_2_3-lib</cdh-spark_2_3-lib>
-        <cdh-spark_2_3_r3-lib>cdh-spark_2_3_r3-lib</cdh-spark_2_3_r3-lib>
         <cdh-spark_2_3_r4-lib>cdh-spark_2_3_r4-lib</cdh-spark_2_3_r4-lib>
-        <cdh_6_0-lib>cdh_6_0-lib</cdh_6_0-lib>
-        <cdh_6_1-lib>cdh_6_1-lib</cdh_6_1-lib>
-        <cdh_6_2-lib>cdh_6_2-lib</cdh_6_2-lib>
         <cdh_6_3-lib>cdh_6_3-lib</cdh_6_3-lib>
         <cdp_7_1-lib>cdp_7_1-lib</cdp_7_1-lib>
-        <cdh_kafka_1_2-lib>cdh_kafka_1_2-lib</cdh_kafka_1_2-lib>
-        <cdh_kafka_1_3-lib>cdh_kafka_1_3-lib</cdh_kafka_1_3-lib>
         <cdh_kafka_2_0-lib>cdh_kafka_2_0-lib</cdh_kafka_2_0-lib>
         <cdh_kafka_2_1-lib>cdh_kafka_2_1-lib</cdh_kafka_2_1-lib>
         <cdh_kafka_3_0-lib>cdh_kafka_3_0-lib</cdh_kafka_3_0-lib>
         <cdh_kafka_3_1-lib>cdh_kafka_3_1-lib</cdh_kafka_3_1-lib>
         <cdh_kafka_4_1-lib>cdh_kafka_4_1-lib</cdh_kafka_4_1-lib>
         <couchbase_5-lib>couchbase_5-lib</couchbase_5-lib>
-        <cdh_spark_2_1_r1-lib>cdh_spark_2_1_r1-lib</cdh_spark_2_1_r1-lib>
-        <elasticsearch_5-lib>elasticsearch_5-lib</elasticsearch_5-lib>
-        <elasticsearch_6-lib>elasticsearch_6-lib</elasticsearch_6-lib>
         <elasticsearch_7-lib>elasticsearch_7-lib</elasticsearch_7-lib>
         <emr_hadoop_2_8_3-lib>emr_hadoop_2_8_3-lib</emr_hadoop_2_8_3-lib>
         <groovy_2_4-lib>groovy_2_4-lib</groovy_2_4-lib>
-        <hdp_2_2-lib>hdp_2_2-lib</hdp_2_2-lib>
-        <hdp_2_3-lib>hdp_2_3-lib</hdp_2_3-lib>
-        <hdp_2_3-hive1-lib>hdp_2_3-hive1-lib</hdp_2_3-hive1-lib>
-        <hdp_2_4-lib>hdp_2_4-lib</hdp_2_4-lib>
-        <hdp_2_4-hive1-lib>hdp_2_4-hive1-lib</hdp_2_4-hive1-lib>
-        <hdp_2_5-lib>hdp_2_5-lib</hdp_2_5-lib>
-        <hdp_2_5-flume-lib>hdp_2_5-flume-lib</hdp_2_5-flume-lib>
-        <hdp_2_6-lib>hdp_2_6-lib</hdp_2_6-lib>
-        <hdp_2_6_1-hive1-lib>hdp_2_6_1-hive1-lib</hdp_2_6_1-hive1-lib>
-        <hdp_2_6_2-hive1-lib>hdp_2_6_2-hive1-lib</hdp_2_6_2-hive1-lib>
-        <hdp_2_6-hive2-lib>hdp_2_6-hive2-lib</hdp_2_6-hive2-lib>
-        <hdp_2_6-flume-lib>hdp_2_6-flume-lib</hdp_2_6-flume-lib>
         <hdp_3_1-lib>hdp_3_1-lib</hdp_3_1-lib>
         <jython_2_7-lib>jython_2_7-lib</jython_2_7-lib>
-        <kinetica_6_0-lib>kinetica_6_0-lib</kinetica_6_0-lib>
-        <kinetica_6_1-lib>kinetica_6_1-lib</kinetica_6_1-lib>
-        <kinetica_6_2-lib>kinetica_6_2-lib</kinetica_6_2-lib>
         <kinetica_7_0-lib>kinetica_7_0-lib</kinetica_7_0-lib>
-        <mapr_6_0-lib>mapr_6_0-lib</mapr_6_0-lib>
-        <mapr_6_0-mep4-lib>mapr_6_0-mep4-lib</mapr_6_0-mep4-lib>
-        <mapr_6_0-mep5-lib>mapr_6_0-mep5-lib</mapr_6_0-mep5-lib>
-        <mapr_6_1-lib>mapr_6_1-lib</mapr_6_1-lib>
-        <mapr_6_1-mep6-lib>mapr_6_1-mep6-lib</mapr_6_1-mep6-lib>
         <mongodb_3-lib>mongodb_3-lib</mongodb_3-lib>
         <mongodb_4-lib>mongodb_4-lib</mongodb_4-lib>
         <databricks-ml_2-lib>databricks-ml_2-lib</databricks-ml_2-lib>
@@ -617,93 +534,25 @@
 
              IMPORTANT: the modules for all stage libraries
         -->
-        <module>apache-kafka_0_8_1-lib</module>
-        <module>apache-kafka_0_8_2-lib</module>
-        <module>apache-kafka_0_9-lib</module>
-        <module>apache-kafka_0_10-lib</module>
-        <module>apache-kafka_0_11-lib</module>
-        <module>apache-kafka_1_0-lib</module>
-        <module>apache-kafka_1_1-lib</module>
-        <module>apache-kafka_2_0-lib</module>
-        <module>apache-kafka_2_1-lib</module>
-        <module>apache-kafka_2_2-lib</module>
-        <module>apache-kafka_2_3-lib</module>
-        <module>apache-kafka_2_4-lib</module>
-        <module>apache-kafka_2_5-lib</module>
-        <module>apache-kafka_2_6-lib</module>
         <module>apache-kafka_2_7-lib</module>
-        <module>apache-kudu_1_0-lib</module>
-        <module>apache-kudu_1_1-lib</module>
-        <module>apache-kudu_1_2-lib</module>
-        <module>apache-kudu_1_3-lib</module>
-        <module>apache-kudu_1_4-lib</module>
-        <module>apache-kudu_1_5-lib</module>
-        <module>apache-kudu_1_6-lib</module>
         <module>apache-kudu_1_7-lib</module>
         <module>apache-pulsar_2-lib</module>
         <module>apache-solr_6_1_0-lib</module>
         <module>cassandra_3-lib</module>
-        <module>cdh_5_2-lib</module>
-        <module>cdh_5_3-lib</module>
-        <module>cdh_5_4-lib</module>
-        <module>cdh_5_5-lib</module>
-        <module>cdh_5_7-lib</module>
-        <module>cdh_5_8-lib</module>
-        <module>cdh_5_9-lib</module>
-        <module>cdh_5_10-lib</module>
-        <module>cdh_5_11-lib</module>
-        <module>cdh_5_12-lib</module>
-        <module>cdh_5_13-lib</module>
-        <module>cdh_5_14-lib</module>
-        <module>cdh_5_15-lib</module>
-        <module>cdh_5_16-lib</module>
-        <module>cdh_6_0-lib</module>
-        <module>cdh_6_1-lib</module>
-        <module>cdh_6_2-lib</module>
         <module>cdh_6_3-lib</module>
         <module>cdp_7_1-lib</module>
-        <module>cdh_kafka_1_2-lib</module>
-        <module>cdh_kafka_1_3-lib</module>
-        <module>cdh_kafka_2_0-lib</module>
         <module>cdh_kafka_2_1-lib</module>
-        <module>cdh_kafka_3_0-lib</module>
         <module>cdh_kafka_3_1-lib</module>
         <module>cdh_kafka_4_1-lib</module>
-        <module>cdh_spark_2_1_r1-lib</module>
-        <module>cdh-spark_2_1-lib</module>
-        <module>cdh-spark_2_2-lib</module>
-        <module>cdh-spark_2_3-lib</module>
-        <module>cdh-spark_2_3_r3-lib</module>
         <module>cdh-spark_2_3_r4-lib</module>
         <module>couchbase_5-lib</module>
-        <module>elasticsearch_5-lib</module>
-        <module>elasticsearch_6-lib</module>
         <module>elasticsearch_7-lib</module>
         <module>emr_hadoop_2_8_3-lib</module>
         <module>groovy_2_4-lib</module>
-        <module>kinetica_6_0-lib</module>
-        <module>kinetica_6_1-lib</module>
         <module>kinetica_6_2-lib</module>
         <module>kinetica_7_0-lib</module>
-        <module>hdp_2_2-lib</module>
-        <module>hdp_2_3-lib</module>
-        <module>hdp_2_3-hive1-lib</module>
-        <module>hdp_2_4-lib</module>
-        <module>hdp_2_4-hive1-lib</module>
-        <module>hdp_2_5-lib</module>
-        <module>hdp_2_5-flume-lib</module>
-        <module>hdp_2_6-lib</module>
-        <module>hdp_2_6_1-hive1-lib</module>
-        <module>hdp_2_6_2-hive1-lib</module>
-        <module>hdp_2_6-hive2-lib</module>
-        <module>hdp_2_6-flume-lib</module>
         <module>hdp_3_1-lib</module>
         <module>jython_2_7-lib</module>
-        <module>mapr_6_0-lib</module>
-        <module>mapr_6_0-mep4-lib</module>
-        <module>mapr_6_0-mep5-lib</module>
-        <module>mapr_6_1-lib</module>
-        <module>mapr_6_1-mep6-lib</module>
         <module>mongodb_3-lib</module>
         <module>mongodb_4-lib</module>
         <module>databricks-ml_2-lib</module>
@@ -976,16 +825,6 @@
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
-    </repository>
-    <repository>
-      <id>mapr-releases</id>
-      <url>https://repository.mapr.com/maven/</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
     </repository>
     <repository>
       <releases>
